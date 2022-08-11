@@ -1,0 +1,17 @@
+.inputSearch {
+    width: 100%;
+    max-width: 40rem;
+    height: 4rem;
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--gray-900);
+
+    border: 0.1rem solid var(--yellow-50);
+    border-radius: 10rem;
+    background-color: var(--white);
+    outline: none;
+
+    padding: 0 1rem;
+    margin-inline: 6rem;
+}

@@ -1,0 +1,45 @@
+.button {
+    height: 4rem;
+    width: 4rem;
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--gray-900);
+        
+    border: 0.1rem solid var(--yellow-50);
+    border-radius: 100%;
+    background-color: var(--white);
+    outline: none;
+
+    cursor: pointer;
+}
+
+.button_active {
+    background-color: var(--yellow-50);
+}
+
+.button_variant_long {
+    width: 100%;
+    max-width: 20rem;
+    height: 4rem;
+
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: var(--gray-900);
+    
+    padding: 0 1rem;
+    
+    border: 0.1rem solid var(--yellow-50);
+    border-radius: 10rem;
+    background-color: var(--white);
+    outline: none;
+
+    cursor: pointer;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.button_variant_long:hover {
+    background-color: var(--yellow-50);
+    font-weight: 600;
+}
